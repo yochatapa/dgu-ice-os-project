@@ -16,22 +16,6 @@ Mini Operating System은 다양한 자료구조를 활용하여 리눅스 CLI(Co
 
 <br>
 
-### How To Use
-
-1. src 폴더에 있는 main.c를 다운받습니다.
-2. 실행시킬 `Linux` 환경에 `main.c`를 위치시킵니다.
-3. main.c를 컴파일해줍니다.
-```sh
-    gcc -std=c99 -o 실행파일명 main.c
-```
-4. 실행파일을 실행시켜줍니다.
-```sh
-    ./실행파일명
-```
-
-
-<br>
-
 ### 기능 소개
 
 Mini Operating System에는 다음과 같은 기능들이 구현되어 있습니다.
@@ -71,8 +55,6 @@ Mini Operating System의 명령어와 옵션에 대한 설명은 다음과 같�
 
 <br>
 
-
-
 ### 시스템 구조
 
 Mini Operating System의 구조는 다음과 같습니다.
@@ -97,3 +79,34 @@ root 디렉토리
 - lsibling : 폴더와 같은 깊이에 있는 트리 중 왼쪽에 있는 트리를 나타냄
 - rsibling : 폴더와 같은 깊이에 있는 트리 중 오른쪽에 있는 트리를 나타냄
 - previous : 상위 폴더를 나타냄
+
+<br>
+
+### How To Use
+
+1. src 폴더에 있는 main.c를 다운받습니다.
+2. 실행시킬 `Linux` 환경에 `main.c`를 위치시킵니다.
+3. main.c를 컴파일해줍니다.
+```sh
+    gcc -std=c99 -o 실행파일명 main.c
+```
+4. 실행파일을 실행시켜줍니다.
+```sh
+    ./실행파일명
+```
+
+5. 정상 작동되었다면 다음과 같은 이미지가 표출됩니다. input user에 사용자 이름을 입력한 후 enter 키를 눌러주세요.
+    ![initial_screen.png](./assets/howToUse/initial_screen.png)
+<br>
+6. 사용할 user를 선택해주세요.
+    ![user_selection_screen.png](./assets/howToUse/user_selection_screen.png)
+
+    <br>
+
+    user를 추가하고 싶다면, plus를 입력해주세요.
+    ![new_user_creation_screen.png](./assets/howToUse/new_user_creation_screen.png)
+
+<br>
+
+7. 로그인이 정상적으로 완료되면, Mini Operating System을 사용할 수 있습니다!
+    ![login_success_screen.png](./assets/howToUse/login_success_screen.png)
