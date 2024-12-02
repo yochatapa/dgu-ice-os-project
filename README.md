@@ -96,17 +96,23 @@ root 디렉토리
 ```
 
 5. 정상 작동되었다면 다음과 같은 이미지가 표출됩니다. input user에 사용자 이름을 입력한 후 enter 키를 눌러주세요.
+   
     ![initial_screen.png](./assets/howToUse/initial_screen.png)
+   
 <br>
-6. 사용할 user를 선택해주세요.
+
+7. 사용할 user를 선택해주세요.
+   
     ![user_selection_screen.png](./assets/howToUse/user_selection_screen.png)
 
     <br>
 
     user를 추가하고 싶다면, plus를 입력해주세요.
+   
     ![new_user_creation_screen.png](./assets/howToUse/new_user_creation_screen.png)
 
 <br>
 
 7. 로그인이 정상적으로 완료되면, Mini Operating System을 사용할 수 있습니다!
+   
     ![login_success_screen.png](./assets/howToUse/login_success_screen.png)
