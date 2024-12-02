@@ -1,22 +1,20 @@
 # dgu-ice-os-project
 
-## 프로젝트 정보
-
 동국대학교 컴퓨터공학부 정보통신공학전공
 "운영체제" 과목 실습 과제
 
-### 과제 : Mini Operating System을 구현하라. 
+## 과제 : Mini Operating System을 구현하라. 
 
 [상세 지침](./docs/GuideLine.md)
 
-### Mini Operating System이란?
+## Mini Operating System이란?
 
 Mini Operating System은 다양한 자료구조를 활용하여 리눅스 CLI(Command Line Interface)를 클론 코딩하는 프로젝트입니다.
 이 프로젝트에서는 ls, cd, mkdir, rm 등 주요 명령어를 직접 구현하며, 멀티프로세서를 설계하여 여러 명령어가 동시에 동작할 수 있도록 개발하는 것이 목표입니다.
 
 <br>
 
-### 기능 소개
+## 기능 소개
 
 Mini Operating System에는 다음과 같은 기능들이 구현되어 있습니다.
 
@@ -26,7 +24,7 @@ Mini Operating System에는 다음과 같은 기능들이 구현되어 있습니
 
 Mini Operating System의 명령어와 옵션에 대한 설명은 다음과 같습니다.
 
-#### 기본 명령어 (6개)
+### 기본 명령어 (6개)
 - [cd](./docs/cd/README.md) : 현재 작업 디렉토리를 변경합니다.
 - [mkdir](./docs/mkdir/README.md) : 새 디렉토리를 생성합니다.
     - m 옵션 : 생성하는 디렉토리의 권한을 설정합니다.
@@ -42,7 +40,7 @@ Mini Operating System의 명령어와 옵션에 대한 설명은 다음과 같�
 - [rm](./docs/rm/README.md) : 파일이나 디렉토리를 삭제합니다.
     - r 옵션 : 디렉토리를 포함한 하위 파일까지 모두 삭제합니다.
 
-#### 추가 명령어 (3개)
+### 추가 명령어 (3개)
 - [tree](./docs/tree/README.md) : 디렉토리 구조를 트리 형태로 표시합니다.
     - a 옵션 : 숨김 파일을 포함한 모든 파일을 표시합니다.
     - f 옵션 : 파일의 전체 경로를 표시합니다.
@@ -55,7 +53,7 @@ Mini Operating System의 명령어와 옵션에 대한 설명은 다음과 같�
 
 <br>
 
-### 시스템 구조
+## 시스템 구조
 
 Mini Operating System의 구조는 다음과 같습니다.
 
@@ -82,7 +80,7 @@ root 디렉토리
 
 <br>
 
-### How To Use
+## How To Use
 
 1. src 폴더에 있는 main.c를 다운받습니다.
 2. 실행시킬 `Linux` 환경에 `main.c`를 위치시킵니다.
