@@ -4689,7 +4689,7 @@ void removedir_p(nodeptr temp)
                 printf("rmdir :can't remove user folder\n");
                 return;
             }
-            printf("%s / %s\n",tempcur->name,deep->name);
+            
             while(tempcur!=deep)
             {
                 if(tempcur->lchild != NULL)
