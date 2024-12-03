@@ -4593,11 +4593,6 @@ void removedir_p(nodeptr temp)
                         }
                         else
                         {
-                            if(tempcur2->lchild != NULL && tempcur2->lchild->rsibling != NULL)
-                            {
-                                printf("rmdir : fail to remove directory '%s' : directory is not empty\n",temppath);
-                                return;
-                            }
                             tempcur = tempcur2;
                         }
 
@@ -4676,11 +4671,6 @@ void removedir_p(nodeptr temp)
                                     tempcur = tempcur2;
                                     break;
                                 }
-                                if(tempcur2->lchild != NULL & tempcur2->lchild->rsibling!=NULL)
-                                {
-                                    printf("rmdir : fail to remove directory '%s' : directory is not empty\n",token);
-                                    return;
-                                }
                                 tempcur = tempcur2;
 
                         }
@@ -4699,9 +4689,14 @@ void removedir_p(nodeptr temp)
                 printf("rmdir :can't remove user folder\n");
                 return;
             }
-
+            printf("%s / %s\n",tempcur->name,deep->name);
             while(tempcur!=deep)
             {
+                if(tempcur->lchild != NULL)
+                {
+                    printf("rmdir : fail to remove directory '%s' : directory is not empty\n",tempcur->name);
+                    return;
+                }
 
                 if(tempcur->rsibling == NULL)
                 {
