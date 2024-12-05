@@ -18,3 +18,5 @@
 pwd
 # 출력 예: /jinseob/newFolder2
 ```
+
+![pwd_check_current_folder_location](/assets/pwd/pwd_check_current_folder_location.png)
