@@ -23,25 +23,35 @@
 mkdir newFolder
 ```
 
+![mkdir_relative_path](/assets/mkdir/mkdir_relative_path.png)
+
 ```bash
 # 디렉토리 생성 (절대경로)
 mkdir /jinseob/newFolder2
 ```
+
+![mkdir_absolute_path](/assets/mkdir/mkdir_absolute_path.png)
 
 ```bash
 # 권한을 설정하여 디렉토리 생성
 mkdir -m 777 mOption
 ```
 
+![mkdir_with_m_option](/assets/mkdir/mkdir_with_m_option.png)
+
 ```bash
 # 상위 디렉토리를 포함하여 생성
 mkdir -p pOption/newP1
 ```
 
+![mkdir_create_subdirectory_with_p_option_success](/assets/mkdir/mkdir_create_subdirectory_with_p_option_success.png)
+
 ```bash
 # 여러 디렉토리 동시에 생성
 mkdir multi1 multi2
 ```
+
+![mkdir_create_multiple_folders_simultaneously](/assets/mkdir/mkdir_create_multiple_folders_simultaneously.png)
 
 ## 주의사항
 
