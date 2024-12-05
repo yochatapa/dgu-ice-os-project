@@ -22,21 +22,29 @@ cat >newFile
 # 입력할 내용 작성 후 end로 저장 종료
 ```
 
+![cat_create_file_relative_path](/assets/cat/cat_create_file_relative_path.png)
+
 ```bash
 # 새 파일 생성 및 내용 입력 (절대경로)
 cat >/jinseob/newFolder/newFile2
 # 입력할 내용 작성 후 end로 저장 종료
 ```
 
+![cat_create_file_absolute_path](/assets/cat/cat_create_file_absolute_path.png)
+
 ```bash
 # 파일의 내용 출력
 cat newFile
 ```
 
+![cat_display_file_content](/assets/cat/cat_display_file_content.png)
+
 ```bash
 # 파일 내용을 출력하며 줄 번호 추가
 cat -n newFile
 ```
+
+![cat_n_option_with_line_numbers](/assets/cat/cat_n_option_with_line_numbers.png)
 
 ## 주의사항
 
