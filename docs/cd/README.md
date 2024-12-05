@@ -25,15 +25,21 @@
 cd newFolder2
 ```
 
+![relative_path](/assets/cd/relative_path.png)
+
 ```bash
 # 절대 경로를 사용해 이동
 cd /jinseob/newFolder2
 ```
 
+![absolute_path](/assets/cd/absolute_path.png)
+
 ```bash
 # 상위 디렉토리로 이동
 cd ..
 ```
+
+![move_to_parent_directory](/assets/cd/move_to_parent_directory.png)
 
 ## 주의 사항
 
