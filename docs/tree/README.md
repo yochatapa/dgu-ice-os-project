@@ -23,27 +23,46 @@
 tree
 ```
 
+![tree_default](/assets/tree/tree_default.png)
+
+```bash
+# 특정 디렉토리의 트리 구조 출력 (상대경로)
+tree newFolder2
+```
+
+![tree_relative_path](/assets/tree/tree_relative_path.png)
+
+```bash
+# 특정 디렉토리의 트리 구조 출력 (절대경로)
+tree /jinseob/newFolder2
+```
+
+![tree_absolute_path](/assets/tree/tree_absolute_path.png)
+
 ```bash
 # 숨김 파일을 포함하여 출력
 tree -a
 ```
+
+![tree_a_option_show_hidden_files](/assets/tree/tree_a_option_show_hidden_files.png)
 
 ```bash
 # 전체 경로를 표시하며 출력
 tree -f
 ```
 
+![tree_f_option_show_file_paths](/assets/tree/tree_f_option_show_file_paths.png)
+
 ```bash
 # 권한 정보를 표시하며 출력
 tree -p
 ```
+
+![tree_p_option_show_file_permissions](/assets/tree/tree_p_option_show_file_permissions.png)
 
 ```bash
 # 숨김 파일을 포함하고, 전체 경로와 권한 정보를 함께 출력
 tree -a -f -p
 ```
 
-```bash
-# 특정 디렉토리의 트리 구조 출력
-tree /home/user/projects
-```
+![tree_combined_options](/assets/tree/tree_combined_options.png)
