@@ -19,24 +19,46 @@
 ## 예제
 
 ```bash
-# 현재 디렉토리에서 이름이 'file.txt'인 파일 검색
-find . -name "file.txt"
+# newFolder 상대경로 디렉토리 검색
+find newFolder2
 ```
 
+![find_relative_path](/assets/find/find_relative_path.png)
+
 ```bash
-# 특정 경로에서 이름에 'log'가 포함된 파일 검색
-find /var/logs -name "*log*"
+# newFolder 절대경로 디렉토리 검색
+find /jinseob/newFolder2
 ```
+
+![find_absolute_path](/assets/find/find_absolute_path.png)
+
+```bash
+# 현재 디렉토리에서 이름이 'innerFile.txt'인 파일 검색
+find . -name "innerFile.txt"
+```
+![find_name_option_exact_name](/assets/find/find_name_option_exact_name.png)
+
+```bash
+# 특정 경로에서 이름에 'inner'가 포함된 파일 검색
+find ./newFolder2 -name "*inner*"
+```
+
+![find_name_option_partial_name](/assets/find/find_name_option_partial_name.png)
 
 ```bash
 # 현재 디렉토리에서 일반 파일만 검색
-find . -type f
+find -type f
 ```
 
+![find_type_option_file_search](/assets/find/find_type_option_file_search.png)
+
 ```bash
-# 홈 디렉토리에서 디렉토리만 검색
-find / -type d
+# 현재 디렉토리에서 디렉토리만 검색
+find -type d
 ```
+
+![find_type_option_directory_search](/assets/find/find_type_option_directory_search.png)
+
 
 ## 주의 사항
 - 옵션 -name과 -type은 독립적으로 사용해야 하며, 함께 작성하면 오류가 발생합니다.
