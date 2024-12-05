@@ -22,28 +22,39 @@
 ls
 ```
 
+![ls_check_current_folder](/assets/ls/ls_check_current_folder.png)
+
 ```bash
 # 특정 상대경로의 파일과 디렉토리 출력
 ls newFolder2
 ```
+
+![ls_check_relative_path_folder](/assets/ls/ls_check_relative_path_folder.png)
 
 ```bash
 # 특정 절대경로의 파일과 디렉토리 출력
 ls /jinseob/newFolder2
 ```
 
+![ls_check_absolute_path_folder](/assets/ls/ls_check_absolute_path_folder.png)
+
 ```bash
 # 숨김 파일을 포함한 모든 파일 출력
 ls -a
 ```
+
+![ls_a_option_show_hidden_files](/assets/ls/ls_a_option_show_hidden_files.png)
 
 ```bash
 # 파일의 상세 정보를 출력
 ls -l
 ```
 
+![ls_l_option_detailed_file_info](/assets/ls/ls_l_option_detailed_file_info.png)
+
 ```bash
 # 숨김 파일을 포함하여 상세 정보 출력
 ls -la
 ls -al
 ```
+![ls_la_al_options_combined](/assets/ls/ls_la_al_options_combined.png)
