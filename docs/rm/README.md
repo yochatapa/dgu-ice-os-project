@@ -19,15 +19,23 @@
 rm newFile
 ```
 
+![rm_delete_file_relative_path](/assets/rm/rm_delete_file_relative_path.png)
+
 ```bash
 # 단일 파일 삭제 (절대경로)
 rm /jinseob/newFolder/newFile3.txt
 ```
 
+![rm_delete_file_absolute_path](/assets/rm/rm_delete_file_absolute_path.png)
+
+
 ```bash
 # 디렉토리 및 하위 내용 삭제
 rm -r newFolder
 ```
+
+![rm_r_option_delete_entire_directory](/assets/rm/rm_r_option_delete_entire_directory.png)
+
 
 ## 주의사항
 - `-r`옵션이 없이 디렉토리를 삭제할 수 없습니다.
