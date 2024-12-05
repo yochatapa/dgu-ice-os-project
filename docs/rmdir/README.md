@@ -18,20 +18,28 @@
 rmdir mOption
 ```
 
+![rmdir_relative_path](/assets/rmdir/rmdir_relative_path.png)
+
 ```bash
 # 빈 디렉토리 삭제 (절대경로)
 rmdir /jinseob/multi1
 ```
+
+![rmdir_absolute_path](/assets/rmdir/rmdir_absolute_path.png)
 
 ```bash
 # 상위 디렉토리를 포함하여 삭제
 rmdir -p aaa/bbb/ccc
 ```
 
+![rmdir_p_option_remove_with_subfolders_or_files](/assets/rmdir/rmdir_p_option_remove_with_subfolders_or_files.png)
+
 ```bash
 # 여러 디렉토리 삭제
-rmdir aaa/bbb/ccc aaa/ddd
+rmdir multi2 multi3
 ```
+
+![rmdir_multiple_folders](/assets/rmdir/rmdir_multiple_folders.png)
 
 ## 주의 사항
 - 디렉토리가 비어 있지 않으면 `rmdir : fail to remove directory [디렉토리 경로] : directory is not empty` 오류가 발생합니다.
